@@ -35,7 +35,7 @@
                 <div class="search-icon">
                     <i class="las la-search"></i>
                 </div>
-                @auth
+                {{-- @auth
                 <div class="botton-sub">
                     <a href="{{ route("dashboard.home") }}" class="btn-subscribe">Dashboard</a>
                 </div>
@@ -43,7 +43,7 @@
                 <div class="botton-sub">
                     <a href="{{ route("auth.login") }}" class="btn-subscribe">Log In</a>
                 </div>
-                @endauth
+                @endauth --}}
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#main_nav"
                     aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
